@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hangout-jury/static/css/main.15850709.css",
+    "main.js": "/hangout-jury/static/js/main.81e4ad79.js",
+    "static/js/787.86474ce0.chunk.js": "/hangout-jury/static/js/787.86474ce0.chunk.js",
+    "static/media/HRV.png": "/hangout-jury/static/media/HRV.e26ad787d486a5216b51.png",
+    "static/media/Metropolis-ExtraBold.otf": "/hangout-jury/static/media/Metropolis-ExtraBold.f179dd5fc7c0864a964b.otf",
+    "index.html": "/hangout-jury/index.html",
+    "main.15850709.css.map": "/hangout-jury/static/css/main.15850709.css.map",
+    "main.81e4ad79.js.map": "/hangout-jury/static/js/main.81e4ad79.js.map",
+    "787.86474ce0.chunk.js.map": "/hangout-jury/static/js/787.86474ce0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15850709.css",
+    "static/js/main.81e4ad79.js"
+  ]
+}
