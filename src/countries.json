@@ -1,0 +1,162 @@
+[
+    {
+      "country": "Albania",
+      "code": "ALB"
+    },
+    {
+      "country": "Armenia",
+      "code": "ARM"
+    },
+    {
+      "country": "Australia",
+      "code": "AUS"
+    },
+    {
+      "country": "Austria",
+      "code": "AUT"
+    },
+    {
+      "country": "Azerbaijan",
+      "code": "AZE"
+    },
+    {
+      "country": "Belgium",
+      "code": "BEL"
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BGR"
+    },
+    {
+      "country": "Croatia",
+      "code": "HRV"
+    },
+    {
+      "country": "Cyprus",
+      "code": "CYP"
+    },
+    {
+      "country": "Czech Republic",
+      "code": "CZE"
+    },
+    {
+      "country": "Denmark",
+      "code": "DNK"
+    },
+    {
+      "country": "Estonia",
+      "code": "EST"
+    },
+    {
+      "country": "Finland",
+      "code": "FIN"
+    },
+    {
+      "country": "France",
+      "code": "FRA"
+    },
+    {
+      "country": "Georgia",
+      "code": "GEO"
+    },
+    {
+      "country": "Germany",
+      "code": "DEU"
+    },
+    {
+      "country": "Greece",
+      "code": "GRC"
+    },
+    {
+      "country": "Iceland",
+      "code": "ISL"
+    },
+    {
+      "country": "Ireland",
+      "code": "IRL"
+    },
+    {
+      "country": "Israel",
+      "code": "ISR"
+    },
+    {
+      "country": "Italy",
+      "code": "ITA"
+    },
+    {
+      "country": "Latvia",
+      "code": "LVA"
+    },
+    {
+      "country": "Lithuania",
+      "code": "LTU"
+    },
+    {
+      "country": "Malta",
+      "code": "MLT"
+    },
+    {
+      "country": "Moldova",
+      "code": "MDA"
+    },
+    {
+      "country": "Montenegro",
+      "code": "MNE"
+    },
+    {
+      "country": "Netherlands",
+      "code": "NLD"
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MKD"
+    },
+    {
+      "country": "Norway",
+      "code": "NOR"
+    },
+    {
+      "country": "Poland",
+      "code": "POL"
+    },
+    {
+      "country": "Portugal",
+      "code": "PRT"
+    },
+    {
+      "country": "Romania",
+      "code": "ROU"
+    },
+    {
+      "country": "San Marino",
+      "code": "SMR"
+    },
+    {
+      "country": "Serbia",
+      "code": "SRB"
+    },
+    {
+      "country": "Slovenia",
+      "code": "SVN"
+    },
+    {
+      "country": "Spain",
+      "code": "ESP"
+    },
+    {
+      "country": "Sweden",
+      "code": "SWE"
+    },
+    {
+      "country": "Switzerland",
+      "code": "CHE"
+    },
+    {
+      "country": "Ukraine",
+      "code": "UKR"
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GBR"
+    }
+  ]

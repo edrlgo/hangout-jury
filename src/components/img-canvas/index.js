@@ -12,7 +12,7 @@ const ImgCanvas = (props) => {
         const ctx = canvas.getContext('2d');
 
         const img = new Image();
-        img.src = require('../../img/HRV.png');
+        img.src = require('../../img/LVA.png');
 
         img.onload = function() {
             ctx.drawImage(img, 0, 0);
