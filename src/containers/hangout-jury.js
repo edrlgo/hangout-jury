@@ -8,6 +8,8 @@ const HangoutJury = () => {
     const [avg, setAvg] = useState("");
     const [stdev, setStdev] = useState("");
 
+    const [country, setCountry] = useState("EST");
+
     return (
         <div>
             <h1>Hangout Jury Results</h1>
@@ -26,7 +28,7 @@ const HangoutJury = () => {
             </Grid>
 
             <h2>Preview</h2>
-            <ImgCanvas votes={votes} avg={avg} stdev={stdev} />
+            <ImgCanvas country={country} votes={votes} avg={avg} stdev={stdev} />
         </div>
     );
 }

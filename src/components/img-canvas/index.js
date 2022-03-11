@@ -3,7 +3,7 @@ import { Button, Box } from '@mui/material';
 import './index.css';
 
 const ImgCanvas = (props) => {
-    const { votes, avg, stdev } = props;
+    const { country, votes, avg, stdev } = props;
 
     const canvasRef = useRef(null);
 
@@ -12,7 +12,7 @@ const ImgCanvas = (props) => {
         const ctx = canvas.getContext('2d');
 
         const img = new Image();
-        img.src = require('../../img/LVA.png');
+        img.src = require(`../../img/${country}.png`);
 
         img.onload = function() {
             ctx.drawImage(img, 0, 0);
@@ -25,7 +25,7 @@ const ImgCanvas = (props) => {
             ctx.fillText(stdev, 1150, 680);
         }
 
-    }, [votes, avg, stdev]);
+    }, [country, votes, avg, stdev]);
 
     const onDownloadClick = () => {
         const canvas = document.getElementById('hj-canvas');
