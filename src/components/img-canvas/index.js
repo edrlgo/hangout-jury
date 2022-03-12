@@ -12,7 +12,13 @@ const ImgCanvas = (props) => {
         const ctx = canvas.getContext('2d');
 
         const img = new Image();
-        img.src = require(`../../img/${country}.png`);
+
+        try {
+            img.src = require(`../../img/${country}.png`);
+        }
+        catch {
+            img.src = require(`../../img/error.png`);
+        }
 
         img.onload = function() {
             ctx.drawImage(img, 0, 0);
