@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/hangout-jury/static/css/main.15850709.css",
-    "main.js": "/hangout-jury/static/js/main.18ffccf2.js",
+    "main.js": "/hangout-jury/static/js/main.f5c02343.js",
     "static/js/787.86474ce0.chunk.js": "/hangout-jury/static/js/787.86474ce0.chunk.js",
     "static/media/MLT.png": "/hangout-jury/static/media/MLT.9283832e6bdd45d11213.png",
     "static/media/ESP.png": "/hangout-jury/static/media/ESP.574d0346d1fd0ff35b29.png",
+    "static/media/DEU.png": "/hangout-jury/static/media/DEU.6e51be3b33daca239d18.png",
     "static/media/POL.png": "/hangout-jury/static/media/POL.1f87c2c571e0140f7189.png",
     "static/media/BGR.png": "/hangout-jury/static/media/BGR.0d9fb93086d3b0424bbe.png",
     "static/media/LTU.png": "/hangout-jury/static/media/LTU.960e31ea70568f26ffa2.png",
@@ -16,13 +17,14 @@
     "static/media/MKD.png": "/hangout-jury/static/media/MKD.f510f947eb6ff6f06076.png",
     "static/media/ALB.png": "/hangout-jury/static/media/ALB.c6f1bcd42642629f7a6a.png",
     "static/media/Metropolis-ExtraBold.otf": "/hangout-jury/static/media/Metropolis-ExtraBold.f179dd5fc7c0864a964b.otf",
+    "static/media/error.png": "/hangout-jury/static/media/error.a0c7c67eed295eda5852.png",
     "index.html": "/hangout-jury/index.html",
     "main.15850709.css.map": "/hangout-jury/static/css/main.15850709.css.map",
-    "main.18ffccf2.js.map": "/hangout-jury/static/js/main.18ffccf2.js.map",
+    "main.f5c02343.js.map": "/hangout-jury/static/js/main.f5c02343.js.map",
     "787.86474ce0.chunk.js.map": "/hangout-jury/static/js/787.86474ce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15850709.css",
-    "static/js/main.18ffccf2.js"
+    "static/js/main.f5c02343.js"
   ]
 }
