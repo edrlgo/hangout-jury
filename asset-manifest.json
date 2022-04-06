@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/hangout-jury/static/css/main.15850709.css",
-    "main.js": "/hangout-jury/static/js/main.aad83de1.js",
+    "main.js": "/hangout-jury/static/js/main.162dff45.js",
     "static/js/787.86474ce0.chunk.js": "/hangout-jury/static/js/787.86474ce0.chunk.js",
     "static/media/GRC.png": "/hangout-jury/static/media/GRC.7156448f4ff3b6d3332a.png",
+    "static/media/IRL.png": "/hangout-jury/static/media/IRL.ee4661497f302513e8fe.png",
     "static/media/DNK.png": "/hangout-jury/static/media/DNK.aeb11dc0eff05e95a65a.png",
     "static/media/ISL.png": "/hangout-jury/static/media/ISL.1844af293e4150b0b901.png",
     "static/media/NOR.png": "/hangout-jury/static/media/NOR.ac72960b1e062d7a2d60.png",
@@ -12,6 +13,7 @@
     "static/media/ESP.png": "/hangout-jury/static/media/ESP.574d0346d1fd0ff35b29.png",
     "static/media/SWE.png": "/hangout-jury/static/media/SWE.a04bd3e2c6f4b672fb0d.png",
     "static/media/DEU.png": "/hangout-jury/static/media/DEU.6e51be3b33daca239d18.png",
+    "static/media/GBR.png": "/hangout-jury/static/media/GBR.3da5904b2f79817e6dae.png",
     "static/media/SVN.png": "/hangout-jury/static/media/SVN.983c5ff68c013b622706.png",
     "static/media/POL.png": "/hangout-jury/static/media/POL.1f87c2c571e0140f7189.png",
     "static/media/BGR.png": "/hangout-jury/static/media/BGR.0d9fb93086d3b0424bbe.png",
@@ -25,6 +27,7 @@
     "static/media/LVA.png": "/hangout-jury/static/media/LVA.e8d3e9d2c76c70233faa.png",
     "static/media/PRT.png": "/hangout-jury/static/media/PRT.59550ee5217c96f05036.png",
     "static/media/MDA.png": "/hangout-jury/static/media/MDA.880ed6db71cb09ed6aac.png",
+    "static/media/AZE.png": "/hangout-jury/static/media/AZE.94f8c0038638a60322e1.png",
     "static/media/AUS.png": "/hangout-jury/static/media/AUS.11542019e862be789e18.png",
     "static/media/MKD.png": "/hangout-jury/static/media/MKD.f510f947eb6ff6f06076.png",
     "static/media/ALB.png": "/hangout-jury/static/media/ALB.c6f1bcd42642629f7a6a.png",
@@ -32,11 +35,11 @@
     "static/media/error.png": "/hangout-jury/static/media/error.a0c7c67eed295eda5852.png",
     "index.html": "/hangout-jury/index.html",
     "main.15850709.css.map": "/hangout-jury/static/css/main.15850709.css.map",
-    "main.aad83de1.js.map": "/hangout-jury/static/js/main.aad83de1.js.map",
+    "main.162dff45.js.map": "/hangout-jury/static/js/main.162dff45.js.map",
     "787.86474ce0.chunk.js.map": "/hangout-jury/static/js/787.86474ce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15850709.css",
-    "static/js/main.aad83de1.js"
+    "static/js/main.162dff45.js"
   ]
 }
