@@ -11,7 +11,7 @@ const HangoutJury = () => {
 
     const [countries, setCountries] = useState([]);
     const [country, setCountry] = useState("ALB");
-    const [value, setValue] = useState("Germany");
+    const [value, setValue] = useState("Albania");
 
     useEffect(() => {
         const countries = JSON.parse(JSON.stringify(countriesJson));
