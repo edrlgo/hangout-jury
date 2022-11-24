@@ -24,11 +24,11 @@ const ImgCanvas = (props) => {
             ctx.drawImage(img, 0, 0);
 
             ctx.font = "48pt Metropolis";
-            ctx.fillStyle = "#BDFED3";
+            ctx.fillStyle = "#a4c1c3";
             ctx.textAlign = "center";
-            ctx.fillText(votes, 760, 680)
-            ctx.fillText(avg, 945, 680)
-            ctx.fillText(stdev, 1150, 680);
+            ctx.fillText(votes, 765, 670)
+            ctx.fillText(avg, 945, 670)
+            ctx.fillText(stdev, 1155, 670);
         }
 
     }, [country, votes, avg, stdev]);

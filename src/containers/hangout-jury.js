@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TextField from '@mui/material/TextField';
 import ImgCanvas from '../components/img-canvas';
-import { Autocomplete, Box, Grid } from '@mui/material';
+import { Autocomplete, Grid } from '@mui/material';
 import countriesJson from '../countries.json';
 
 const HangoutJury = () => {
@@ -25,9 +25,10 @@ const HangoutJury = () => {
     }, []);
 
     const onCountryChange = (e, newValue) => {
-        console.log(newValue);
-        setCountry(newValue.value);
-        setValue(newValue.label);
+        if (newValue !== null) {
+            setCountry(newValue.value);
+            setValue(newValue.label);
+        }
     };
 
     return (
