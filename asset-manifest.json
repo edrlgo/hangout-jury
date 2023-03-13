@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hangout-jury/static/css/main.c4b97293.css",
-    "main.js": "/hangout-jury/static/js/main.b44f53e3.js",
+    "main.js": "/hangout-jury/static/js/main.82f34822.js",
     "static/js/787.86474ce0.chunk.js": "/hangout-jury/static/js/787.86474ce0.chunk.js",
     "static/media/SVN.png": "/hangout-jury/static/media/SVN.cf881543281c118a6643.png",
     "static/media/CZE.png": "/hangout-jury/static/media/CZE.61daefe2a0d81c99e3a8.png",
@@ -22,16 +22,17 @@
     "static/media/ROU.png": "/hangout-jury/static/media/ROU.a0d2ade543b3a845d317.png",
     "static/media/EST.png": "/hangout-jury/static/media/EST.1d36502cded3afcbaeca.png",
     "static/media/ITA.png": "/hangout-jury/static/media/ITA.65a5770f7b952541c40e.png",
+    "static/media/SWE.png": "/hangout-jury/static/media/SWE.ce686f22c9dce9914cab.png",
     "static/media/NOR.png": "/hangout-jury/static/media/NOR.6b54f02063946997b1f2.png",
     "static/media/PennyLaneBold.otf": "/hangout-jury/static/media/PennyLaneBold.f53b4b71bc4ea6fa9f1a.otf",
     "static/media/error.png": "/hangout-jury/static/media/error.a0c7c67eed295eda5852.png",
     "index.html": "/hangout-jury/index.html",
     "main.c4b97293.css.map": "/hangout-jury/static/css/main.c4b97293.css.map",
-    "main.b44f53e3.js.map": "/hangout-jury/static/js/main.b44f53e3.js.map",
+    "main.82f34822.js.map": "/hangout-jury/static/js/main.82f34822.js.map",
     "787.86474ce0.chunk.js.map": "/hangout-jury/static/js/787.86474ce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4b97293.css",
-    "static/js/main.b44f53e3.js"
+    "static/js/main.82f34822.js"
   ]
 }
