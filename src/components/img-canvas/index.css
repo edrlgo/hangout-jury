@@ -1,4 +1,9 @@
 @font-face {
-    font-family: 'Metropolis';
-    src: url('../../fonts/Metropolis-ExtraBold.otf');
+    font-family: 'PennyLane';
+    src: url('../../fonts/PennyLaneBold.otf');
+}
+
+@font-face {
+    font-family: 'Bazinga';
+    src: url('../../fonts/Bazinga-Regular.otf');
 }

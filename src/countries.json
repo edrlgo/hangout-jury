@@ -120,10 +120,6 @@
       "code": "NOR"
     },
     {
-      "country": "Peace",
-      "code": "peace"
-    },
-    {
       "country": "Poland",
       "code": "POL"
     },
@@ -134,6 +130,10 @@
     {
       "country": "Romania",
       "code": "ROU"
+    },
+    {
+      "country": "Rest of the World",
+      "code": "ROTW"
     },
     {
       "country": "San Marino",

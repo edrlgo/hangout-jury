@@ -21,14 +21,22 @@ const ImgCanvas = (props) => {
         }
 
         img.onload = function() {
+            const textXPos = 1050;
+
             ctx.drawImage(img, 0, 0);
 
-            ctx.font = "48pt Metropolis";
-            ctx.fillStyle = "#a4c1c3";
-            ctx.textAlign = "center";
-            ctx.fillText(votes, 765, 670)
-            ctx.fillText(avg, 945, 670)
-            ctx.fillText(stdev, 1155, 670);
+            ctx.font = "60pt Bazinga";
+            ctx.fillStyle = "#fff";
+            ctx.strokeStyle = "#000";
+            ctx.lineWidth = 10;
+            ctx.textAlign = "left";
+            
+            ctx.strokeText(votes, textXPos, 490);
+            ctx.fillText(votes, textXPos, 490);
+            ctx.strokeText(avg, textXPos, 580);
+            ctx.fillText(avg, textXPos, 580);
+            ctx.strokeText(stdev, textXPos, 670);
+            ctx.fillText(stdev, textXPos, 670);
         }
 
     }, [country, votes, avg, stdev]);
@@ -39,7 +47,7 @@ const ImgCanvas = (props) => {
         const img = canvas.toDataURL("image/png", 1.0).replace("image/png", "image/octet-stream");
         const link = document.createElement("a");
 
-        link.download = "hangout-jury.png";
+        link.download = `hangout-jury-j2023-${country}.png`;
         link.href = img;
         link.click();
     };
