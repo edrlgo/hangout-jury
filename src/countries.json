@@ -1,170 +1,66 @@
 [
     {
       "country": "Albania",
-      "code": "ALB"
+      "code": "al"
     },
     {
       "country": "Armenia",
-      "code": "ARM"
-    },
-    {
-      "country": "Australia",
-      "code": "AUS"
-    },
-    {
-      "country": "Austria",
-      "code": "AUT"
-    },
-    {
-      "country": "Azerbaijan",
-      "code": "AZE"
-    },
-    {
-      "country": "Belgium",
-      "code": "BEL"
-    },
-    {
-      "country": "Bulgaria",
-      "code": "BGR"
-    },
-    {
-      "country": "Croatia",
-      "code": "HRV"
-    },
-    {
-      "country": "Cyprus",
-      "code": "CYP"
-    },
-    {
-      "country": "Czech Republic",
-      "code": "CZE"
-    },
-    {
-      "country": "Denmark",
-      "code": "DNK"
+      "code": "am"
     },
     {
       "country": "Estonia",
-      "code": "EST"
-    },
-    {
-      "country": "Finland",
-      "code": "FIN"
+      "code": "ee"
     },
     {
       "country": "France",
-      "code": "FRA"
+      "code": "fr"
     },
     {
       "country": "Georgia",
-      "code": "GEO"
+      "code": "ge"
     },
     {
       "country": "Germany",
-      "code": "DEU"
-    },
-    {
-      "country": "Greece",
-      "code": "GRC"
-    },
-    {
-      "country": "Iceland",
-      "code": "ISL"
+      "code": "de"
     },
     {
       "country": "Ireland",
-      "code": "IRL"
-    },
-    {
-      "country": "Israel",
-      "code": "ISR"
+      "code": "ie"
     },
     {
       "country": "Italy",
-      "code": "ITA"
-    },
-    {
-      "country": "Kazakhstan",
-      "code": "KAZ"
-    },
-    {
-      "country": "Latvia",
-      "code": "LVA"
-    },
-    {
-      "country": "Lithuania",
-      "code": "LTU"
+      "code": "it"
     },
     {
       "country": "Malta",
-      "code": "MLT"
-    },
-    {
-      "country": "Moldova",
-      "code": "MDA"
-    },
-    {
-      "country": "Montenegro",
-      "code": "MNE"
+      "code": "mt"
     },
     {
       "country": "Netherlands",
-      "code": "NLD"
+      "code": "nl"
     },
     {
       "country": "North Macedonia",
-      "code": "MKD"
-    },
-    {
-      "country": "Norway",
-      "code": "NOR"
+      "code": "mk"
     },
     {
       "country": "Poland",
-      "code": "POL"
+      "code": "pl"
     },
     {
       "country": "Portugal",
-      "code": "PRT"
-    },
-    {
-      "country": "Romania",
-      "code": "ROU"
-    },
-    {
-      "country": "Rest of the World",
-      "code": "ROTW"
-    },
-    {
-      "country": "San Marino",
-      "code": "SMR"
-    },
-    {
-      "country": "Serbia",
-      "code": "SRB"
-    },
-    {
-      "country": "Slovenia",
-      "code": "SVN"
+      "code": "pt"
     },
     {
       "country": "Spain",
-      "code": "ESP"
-    },
-    {
-      "country": "Sweden",
-      "code": "SWE"
-    },
-    {
-      "country": "Switzerland",
-      "code": "CHE"
+      "code": "es"
     },
     {
       "country": "Ukraine",
-      "code": "UKR"
+      "code": "ua"
     },
     {
       "country": "United Kingdom",
-      "code": "GBR"
+      "code": "gb"
     }
   ]
