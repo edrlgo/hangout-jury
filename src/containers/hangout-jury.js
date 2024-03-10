@@ -4,7 +4,7 @@ import ImgCanvas from '../components/img-canvas';
 import { Autocomplete, Grid } from '@mui/material';
 import countriesJson from '../countries.json';
 
-const participants = ['al,am,ee,fr,ge,de,ie,it,mt,nl,mk,pl,pt,es,ua,gb'];
+// const participants = ['al,am,ee,fr,ge,de,ie,it,mt,nl,mk,pl,pt,es,ua,gb'];
 
 const HangoutJury = () => {
     const [votes, setVotes] = useState("");
@@ -57,22 +57,26 @@ const HangoutJury = () => {
             <h1>Hangout Jury Results</h1>
             <Grid container>
                 <Grid item md={2}></Grid>
-                <Grid item xs={12} md={2}>
+                <Grid item xs={12} md={2} sx={{ marginBottom: "8px" }}>
                     <Autocomplete
                         disablePortal
                         autoComplete={false}
                         options={countries}
                         isOptionEqualToValue={(option, value) => option.label === value}
-                        sx={{ width: "80%" }}
+                        sx={{ 
+                            width: "80%",
+                            marginLeft: { xs: "auto", md: 0 },
+                            marginRight: { xs: "auto", md: 0 }
+                        }}
                         renderInput={(params) => <TextField {...params} label="Country" />}
                         value={value}
                         onChange={(e, newValue) => onCountryChange(e, newValue)}
                     />
                 </Grid>
-                <Grid item xs={12} md={2}>
+                <Grid item xs={12} md={2} sx={{ marginBottom: "8px" }}>
                     <TextField label="Votes" variant="outlined" defaultValue={votes} onChange={e => setVotes(e.target.value)} sx={{ width: "80%" }} />
                 </Grid>
-                <Grid item xs={12} md={2}>
+                <Grid item xs={12} md={2} sx={{ marginBottom: "8px" }}>
                     <TextField label="Average" variant="outlined" defaultValue={avg} onChange={e => setAvg(e.target.value)} sx={{ width: "80%" }} />
                 </Grid>
                 <Grid item xs={12} md={2}>

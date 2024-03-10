@@ -7,3 +7,8 @@
     font-family: 'Bazinga';
     src: url('../../fonts/Bazinga-Regular.otf');
 }
+
+@font-face {
+    font-family: 'Avalon';
+    src: url('../../fonts/Avalon_Bold.ttf');
+}

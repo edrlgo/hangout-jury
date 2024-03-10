@@ -1,66 +1,150 @@
 [
-    {
-      "country": "Albania",
-      "code": "al"
-    },
-    {
-      "country": "Armenia",
-      "code": "am"
-    },
-    {
-      "country": "Estonia",
-      "code": "ee"
-    },
-    {
-      "country": "France",
-      "code": "fr"
-    },
-    {
-      "country": "Georgia",
-      "code": "ge"
-    },
-    {
-      "country": "Germany",
-      "code": "de"
-    },
-    {
-      "country": "Ireland",
-      "code": "ie"
-    },
-    {
-      "country": "Italy",
-      "code": "it"
-    },
-    {
-      "country": "Malta",
-      "code": "mt"
-    },
-    {
-      "country": "Netherlands",
-      "code": "nl"
-    },
-    {
-      "country": "North Macedonia",
-      "code": "mk"
-    },
-    {
-      "country": "Poland",
-      "code": "pl"
-    },
-    {
-      "country": "Portugal",
-      "code": "pt"
-    },
-    {
-      "country": "Spain",
-      "code": "es"
-    },
-    {
-      "country": "Ukraine",
-      "code": "ua"
-    },
-    {
-      "country": "United Kingdom",
-      "code": "gb"
-    }
-  ]
+  {
+    "country": "Albania",
+    "code": "al"
+  },
+  {
+    "country": "Armenia",
+    "code": "am"
+  },
+  {
+    "country": "Australia",
+    "code": "au"
+  },
+  {
+    "country": "Austria",
+    "code": "at"
+  },
+  {
+    "country": "Azerbaijan",
+    "code": "az"
+  },
+  {
+    "country": "Belgium",
+    "code": "be"
+  },
+  {
+    "country": "Croatia",
+    "code": "hr"
+  },
+  {
+    "country": "Cyprus",
+    "code": "cy"
+  },
+  {
+    "country": "Czech Republic",
+    "code": "cz"
+  },
+  {
+    "country": "Denmark",
+    "code": "dk"
+  },
+  {
+    "country": "Estonia",
+    "code": "ee"
+  },
+  {
+    "country": "Finland",
+    "code": "fi"
+  },
+  {
+    "country": "France",
+    "code": "fr"
+  },
+  {
+    "country": "Georgia",
+    "code": "ge"
+  },
+  {
+    "country": "Germany",
+    "code": "de"
+  },
+  {
+    "country": "Greece",
+    "code": "gr"
+  },
+  {
+    "country": "Iceland",
+    "code": "is"
+  },
+  {
+    "country": "Ireland",
+    "code": "ie"
+  },
+  {
+    "country": "Israel",
+    "code": "il"
+  },
+  {
+    "country": "Italy",
+    "code": "it"
+  },
+  {
+    "country": "Latvia",
+    "code": "lv"
+  },
+  {
+    "country": "Lithuania",
+    "code": "lt"
+  },
+  {
+    "country": "Luxembourg",
+    "code": "lu"
+  },
+  {
+    "country": "Malta",
+    "code": "mt"
+  },
+  {
+    "country": "Moldova",
+    "code": "md"
+  },
+  {
+    "country": "Netherlands",
+    "code": "nl"
+  },
+  {
+    "country": "Norway",
+    "code": "no"
+  },
+  {
+    "country": "Poland",
+    "code": "pl"
+  },
+  {
+    "country": "Portugal",
+    "code": "pt"
+  },
+  {
+    "country": "San Marino",
+    "code": "sm"
+  },
+  {
+    "country": "Serbia",
+    "code": "rs"
+  },
+  {
+    "country": "Slovenia",
+    "code": "si"
+  },
+  {
+    "country": "Spain",
+    "code": "es"
+  },
+  {
+    "country": "Sweden",
+    "code": "se"
+  },
+  {
+    "country": "Switzerland",
+    "code": "ch"
+  },
+  {
+    "country": "Ukraine",
+    "code": "ua"
+  },
+  {
+    "country": "United Kingdom",
+    "code": "gb"
+  }
+ ]

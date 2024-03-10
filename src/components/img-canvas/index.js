@@ -21,22 +21,26 @@ const ImgCanvas = (props) => {
         }
 
         img.onload = function() {
-            const textXPos = 1050;
+            const textXPos = 800, textYPos = 675;
+            const yellow = "#ffd02a", pink = "#ff43e2";
 
             ctx.drawImage(img, 0, 0);
 
-            ctx.font = "60pt Bazinga";
-            ctx.fillStyle = "#fff";
-            ctx.strokeStyle = "#000";
-            ctx.lineWidth = 10;
-            ctx.textAlign = "left";
+            ctx.font = "48pt Avalon";
+            ctx.textAlign = "center";
             
-            ctx.strokeText(votes, textXPos, 490);
-            ctx.fillText(votes, textXPos, 490);
-            ctx.strokeText(avg, textXPos, 580);
-            ctx.fillText(avg, textXPos, 580);
-            ctx.strokeText(stdev, textXPos, 670);
-            ctx.fillText(stdev, textXPos, 670);
+            ctx.fillText(votes, textXPos, textYPos);
+            ctx.fillText(avg, textXPos + 182, textYPos);
+            ctx.fillText(stdev, 1174, textYPos);
+
+            const gradient = ctx.createLinearGradient(723, textYPos, 1280, textYPos);
+            gradient.addColorStop("0", yellow);
+            gradient.addColorStop("0.25", pink);
+            gradient.addColorStop("0.5", yellow);
+            gradient.addColorStop("0.75", pink);
+            gradient.addColorStop("1", yellow);
+
+            ctx.fillStyle = gradient;
         }
 
     }, [country, votes, avg, stdev]);
@@ -47,7 +51,7 @@ const ImgCanvas = (props) => {
         const img = canvas.toDataURL("image/png", 1.0).replace("image/png", "image/octet-stream");
         const link = document.createElement("a");
 
-        link.download = `hangout-jury-j2023-${country}.png`;
+        link.download = `hangout-jury-2024-${country}.png`;
         link.href = img;
         link.click();
     };
