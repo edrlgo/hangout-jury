@@ -21,26 +21,28 @@ const ImgCanvas = (props) => {
         }
 
         img.onload = function() {
-            const textXPos = 800, textYPos = 675;
+            const textXPos = 1115, textYPos = 494;
             const yellow = "#ffd02a", pink = "#ff43e2";
 
             ctx.drawImage(img, 0, 0);
 
-            ctx.font = "48pt Avalon";
-            ctx.textAlign = "center";
+            ctx.font = "48pt AktivGrotesk";
+            ctx.textAlign = "left";
+            ctx.fillStyle = "#fbdad5";
+            ctx.letterSpacing = "0.1px";
             
             ctx.fillText(votes, textXPos, textYPos);
-            ctx.fillText(avg, textXPos + 182, textYPos);
-            ctx.fillText(stdev, 1174, textYPos);
+            ctx.fillText(avg, textXPos, textYPos + 71);
+            ctx.fillText(stdev, textXPos, textYPos + 143);
 
-            const gradient = ctx.createLinearGradient(723, textYPos, 1280, textYPos);
-            gradient.addColorStop("0", yellow);
-            gradient.addColorStop("0.25", pink);
-            gradient.addColorStop("0.5", yellow);
-            gradient.addColorStop("0.75", pink);
-            gradient.addColorStop("1", yellow);
+            // const gradient = ctx.createLinearGradient(723, textYPos, 1280, textYPos);
+            // gradient.addColorStop("0", yellow);
+            // gradient.addColorStop("0.25", pink);
+            // gradient.addColorStop("0.5", yellow);
+            // gradient.addColorStop("0.75", pink);
+            // gradient.addColorStop("1", yellow);
 
-            ctx.fillStyle = gradient;
+            // ctx.fillStyle = gradient;
         }
 
     }, [country, votes, avg, stdev]);

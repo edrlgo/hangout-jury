@@ -104,6 +104,10 @@
     "code": "nl"
   },
   {
+    "country": "North Macedonia",
+    "code": "mk"
+  },
+  {
     "country": "Norway",
     "code": "no"
   },
@@ -146,5 +150,9 @@
   {
     "country": "United Kingdom",
     "code": "gb"
+  },
+  {
+    "country": "Rest of the World",
+    "code": "rotw"
   }
  ]

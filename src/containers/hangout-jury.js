@@ -4,7 +4,7 @@ import ImgCanvas from '../components/img-canvas';
 import { Autocomplete, Grid } from '@mui/material';
 import countriesJson from '../countries.json';
 
-// const participants = ['al,am,ee,fr,ge,de,ie,it,mt,nl,mk,pl,pt,es,ua,gb'];
+const participantsAbbr = ['al','am','ee','fr','ge','de','ie','it','mt','nl','mk','pl','pt','es','ua','sm','cy'];
 
 const HangoutJury = () => {
     const [votes, setVotes] = useState("");
@@ -17,9 +17,10 @@ const HangoutJury = () => {
 
     useEffect(() => {
         const countries = JSON.parse(JSON.stringify(countriesJson));
-        console.log(countries);
+        const participants = countries.filter(x => participantsAbbr.includes(x.code));
+        console.log(participants);
 
-        setCountries(countries.map(c => {
+        setCountries(participants.map(c => {
             return {
                 label: c.country,
                 value: c.code

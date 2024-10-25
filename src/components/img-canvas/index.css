@@ -12,3 +12,8 @@
     font-family: 'Avalon';
     src: url('../../fonts/Avalon_Bold.ttf');
 }
+
+@font-face {
+    font-family: 'AktivGrotesk';
+    src: url('../../fonts/AktivGrotesk-XBold.otf');
+}
