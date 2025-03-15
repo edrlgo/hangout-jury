@@ -14,6 +14,11 @@
 }
 
 @font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../../fonts/AktivGrotesk-XBold.otf');
+    font-family: 'AktivGroteskRegular';
+    src: url('../../fonts/AktivGrotesk-ThinItalic.otf');
+}
+
+@font-face {
+    font-family: 'AktivGroteskBold';
+    src: url('../../fonts/AktivGrotesk-BoldItalic.otf');
 }

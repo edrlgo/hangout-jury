@@ -1,158 +1,236 @@
 [
   {
     "country": "Albania",
-    "code": "al"
+    "shortCode": "al",
+    "longCode": "ALB",
+    "color": ""
   },
   {
     "country": "Armenia",
-    "code": "am"
+    "shortCode": "am",
+    "longCode": "ARM",
+    "color": ""
   },
   {
     "country": "Australia",
-    "code": "au"
+    "shortCode": "au",
+    "longCode": "AUS",
+    "color": ""
   },
   {
     "country": "Austria",
-    "code": "at"
+    "shortCode": "at",
+    "longCode": "AUT",
+    "color": ""
   },
   {
     "country": "Azerbaijan",
-    "code": "az"
+    "shortCode": "az",
+    "longCode": "AZE",
+    "color": ""
   },
   {
     "country": "Belgium",
-    "code": "be"
+    "shortCode": "be",
+    "longCode": "BEL",
+    "color": ""
   },
   {
     "country": "Croatia",
-    "code": "hr"
+    "shortCode": "hr",
+    "longCode": "HRV",
+    "color": ""
   },
   {
     "country": "Cyprus",
-    "code": "cy"
+    "shortCode": "cy",
+    "longCode": "CYP",
+    "color": ""
   },
   {
-    "country": "Czech Republic",
-    "code": "cz"
+    "country": "Czechia",
+    "shortCode": "cz",
+    "longCode": "CZE",
+    "color": ""
   },
   {
     "country": "Denmark",
-    "code": "dk"
+    "shortCode": "dk",
+    "longCode": "DNK",
+    "color": "ffffff"
   },
   {
     "country": "Estonia",
-    "code": "ee"
+    "shortCode": "ee",
+    "longCode": "EST",
+    "color": ""
   },
   {
     "country": "Finland",
-    "code": "fi"
+    "shortCode": "fi",
+    "longCode": "FIN",
+    "color": "ffffff"
   },
   {
     "country": "France",
-    "code": "fr"
+    "shortCode": "fr",
+    "longCode": "FRA",
+    "color": ""
   },
   {
     "country": "Georgia",
-    "code": "ge"
+    "shortCode": "ge",
+    "longCode": "GEO",
+    "color": ""
   },
   {
     "country": "Germany",
-    "code": "de"
+    "shortCode": "de",
+    "longCode": "DEU",
+    "color": "ffcf00"
   },
   {
     "country": "Greece",
-    "code": "gr"
+    "shortCode": "gr",
+    "longCode": "GRC",
+    "color": ""
   },
   {
     "country": "Iceland",
-    "code": "is"
+    "shortCode": "is",
+    "longCode": "ISL",
+    "color": ""
   },
   {
     "country": "Ireland",
-    "code": "ie"
+    "shortCode": "ie",
+    "longCode": "IRL",
+    "color": ""
   },
   {
     "country": "Israel",
-    "code": "il"
+    "shortCode": "il",
+    "longCode": "ISR",
+    "color": ""
   },
   {
     "country": "Italy",
-    "code": "it"
+    "shortCode": "it",
+    "longCode": "ITA",
+    "color": ""
   },
   {
     "country": "Latvia",
-    "code": "lv"
+    "shortCode": "lv",
+    "longCode": "LVA",
+    "color": ""
   },
   {
     "country": "Lithuania",
-    "code": "lt"
+    "shortCode": "lt",
+    "longCode": "LTU",
+    "color": ""
   },
   {
     "country": "Luxembourg",
-    "code": "lu"
+    "shortCode": "lu",
+    "longCode": "LUX",
+    "color": ""
   },
   {
     "country": "Malta",
-    "code": "mt"
+    "shortCode": "mt",
+    "longCode": "MLT",
+    "color": ""
   },
   {
     "country": "Moldova",
-    "code": "md"
+    "shortCode": "md",
+    "longCode": "MDA",
+    "color": ""
   },
   {
     "country": "Netherlands",
-    "code": "nl"
+    "shortCode": "nl",
+    "longCode": "NLD",
+    "color": "ffffff"
   },
   {
     "country": "North Macedonia",
-    "code": "mk"
+    "shortCode": "mk",
+    "longCode": "MKD",
+    "color": ""
   },
   {
     "country": "Norway",
-    "code": "no"
+    "shortCode": "no",
+    "longCode": "NOR",
+    "color": ""
   },
   {
     "country": "Poland",
-    "code": "pl"
+    "shortCode": "pl",
+    "longCode": "POL",
+    "color": ""
   },
   {
     "country": "Portugal",
-    "code": "pt"
+    "shortCode": "pt",
+    "longCode": "PRT",
+    "color": ""
   },
   {
     "country": "San Marino",
-    "code": "sm"
+    "shortCode": "sm",
+    "longCode": "SMR",
+    "color": ""
   },
   {
     "country": "Serbia",
-    "code": "rs"
+    "shortCode": "rs",
+    "longCode": "SRB",
+    "color": ""
   },
   {
     "country": "Slovenia",
-    "code": "si"
+    "shortCode": "si",
+    "longCode": "SVN",
+    "color": ""
   },
   {
     "country": "Spain",
-    "code": "es"
+    "shortCode": "es",
+    "longCode": "ESP",
+    "color": ""
   },
   {
     "country": "Sweden",
-    "code": "se"
+    "shortCode": "se",
+    "longCode": "SWE",
+    "color": "fecc00"
   },
   {
     "country": "Switzerland",
-    "code": "ch"
+    "shortCode": "ch",
+    "longCode": "CHE",
+    "color": "ffffff"
   },
   {
     "country": "Ukraine",
-    "code": "ua"
+    "shortCode": "ua",
+    "longCode": "UKR",
+    "color": ""
   },
   {
     "country": "United Kingdom",
-    "code": "gb"
+    "shortCode": "gb",
+    "longCode": "GBR",
+    "color": "ffffff"
   },
   {
-    "country": "Rest of the World",
-    "code": "rotw"
+    "country": "April Fools",
+    "shortCode": "april",
+    "longCode": "APRIL",
+    "color": ""
   }
- ]
+]

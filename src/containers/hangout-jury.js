@@ -10,6 +10,7 @@ const HangoutJury = () => {
     const [votes, setVotes] = useState("");
     const [avg, setAvg] = useState("");
     const [stdev, setStdev] = useState("");
+    const [color, setColor] = useState("#FFFFFF");
 
     const [countries, setCountries] = useState([]);
     const [country, setCountry] = useState("al");
@@ -17,13 +18,14 @@ const HangoutJury = () => {
 
     useEffect(() => {
         const countries = JSON.parse(JSON.stringify(countriesJson));
-        const participants = countries.filter(x => participantsAbbr.includes(x.code));
-        console.log(participants);
+        // const participants = countries.filter(x => participantsAbbr.includes(x.code));
+        // console.log(participants);
 
-        setCountries(participants.map(c => {
+        setCountries(countries.map(c => {
             return {
                 label: c.country,
-                value: c.code
+                value: c.longCode,
+                color: c.color
             }
         }));
 
@@ -50,6 +52,7 @@ const HangoutJury = () => {
         if (newValue !== null) {
             setCountry(newValue.value);
             setValue(newValue.label);
+            setColor(newValue.color);
         }
     };
 
@@ -87,7 +90,7 @@ const HangoutJury = () => {
             </Grid>
 
             <h2>Preview</h2>
-            <ImgCanvas country={country} votes={votes} avg={avg} stdev={stdev} />
+            <ImgCanvas country={country} votes={votes} avg={avg} stdev={stdev} color={color} />
         </div>
     );
 }

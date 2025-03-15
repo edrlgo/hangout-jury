@@ -1,9 +1,48 @@
 import React, { useEffect, useRef } from 'react';
-import { Button, Box } from '@mui/material';
+import { Button, Box, capitalize } from '@mui/material';
 import './index.css';
 
+const styles = {
+    default: { font: "32pt AktivGroteskRegular" },
+    b: { font: "32pt AktivGroteskBold" }
+};
+
+const canvasMarkupText = (ctx, str, x, y, styles) => {
+    const content = (start, end, rule) => ({ start, end, rule});
+    const render = content => {
+        Object.assign(ctx, styles[content.rule] ? styles[content.rule] : {});
+        const s = str.slice(content.start, content.end);
+        ctx.fillText(s, x, y);
+        x += ctx.measureText(s).width;
+    };
+
+    const stack = [], xx = x;
+    let pos = 0, current = content(pos, pos, "default");
+    stack.push(current);
+    while (pos < str.length) {
+        const c = str[pos++];
+        if (c === "<") {
+            if (str[pos] === "/") {
+                render(stack.pop());
+                current = stack[stack.length - 1];
+                current.start = current.end = (pos += 3);
+            }
+            else {
+                render(current);
+                pos += 2;
+                stack.push(current = content(pos, pos, str[pos - 2]));
+            }
+        }
+        else {
+            current.end = pos;
+        }
+    }
+    stack.length && render(current);
+    return x - xx;
+};
+
 const ImgCanvas = (props) => {
-    const { country, votes, avg, stdev } = props;
+    const { country, votes, avg, stdev, color } = props;
 
     const canvasRef = useRef(null);
 
@@ -21,19 +60,17 @@ const ImgCanvas = (props) => {
         }
 
         img.onload = function() {
-            const textXPos = 1115, textYPos = 494;
-            const yellow = "#ffd02a", pink = "#ff43e2";
+            const textXPos = 52, textYPos = 674;
 
             ctx.drawImage(img, 0, 0);
 
-            ctx.font = "48pt AktivGrotesk";
-            ctx.textAlign = "left";
-            ctx.fillStyle = "#fbdad5";
+            // ctx.font = fontRegular;
             ctx.letterSpacing = "0.1px";
-            
-            ctx.fillText(votes, textXPos, textYPos);
-            ctx.fillText(avg, textXPos, textYPos + 71);
-            ctx.fillText(stdev, textXPos, textYPos + 143);
+            ctx.textAlign = "left";
+            ctx.fillStyle = color.length ? '#' + color : "#FFFFFF";
+            const resultsString = `Votes: <b>${votes}</b> | Average: <b>${avg}</b> | Std.Dev.: <b>${stdev}</b>`;
+
+            canvasMarkupText(ctx, resultsString, textXPos, textYPos, styles);
 
             // const gradient = ctx.createLinearGradient(723, textYPos, 1280, textYPos);
             // gradient.addColorStop("0", yellow);
@@ -45,7 +82,7 @@ const ImgCanvas = (props) => {
             // ctx.fillStyle = gradient;
         }
 
-    }, [country, votes, avg, stdev]);
+    }, [country, votes, avg, stdev, color]);
 
     const onDownloadClick = () => {
         const canvas = document.getElementById('hj-canvas');
@@ -53,7 +90,7 @@ const ImgCanvas = (props) => {
         const img = canvas.toDataURL("image/png", 1.0).replace("image/png", "image/octet-stream");
         const link = document.createElement("a");
 
-        link.download = `hangout-jury-2024-${country}.png`;
+        link.download = `hangout-jury-2025-${country}.png`;
         link.href = img;
         link.click();
     };
@@ -61,7 +98,7 @@ const ImgCanvas = (props) => {
     return (
         <Box sx={{ mx: 2, fontFamily: 'Metropolis' }}>
             <canvas id="hj-canvas" ref={canvasRef} width="1280" height="720" />
-            
+
             <Box sx={{ mb: 10 }}>
                 <Button variant="contained" color="success" size="large" onClick={onDownloadClick}>
                     Download
