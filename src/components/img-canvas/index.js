@@ -2,11 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import { Button, Box, capitalize } from '@mui/material';
 import './index.css';
 
-const styles = {
-    default: { font: "32pt AktivGroteskRegular" },
-    b: { font: "32pt AktivGroteskBold" }
-};
-
 const canvasMarkupText = (ctx, str, x, y, styles) => {
     const content = (start, end, rule) => ({ start, end, rule});
     const render = content => {
@@ -46,6 +41,11 @@ const ImgCanvas = (props) => {
 
     const canvasRef = useRef(null);
 
+    const styles = {
+        default: { font: "32pt AktivGroteskRegular" },
+        b: { font: "32pt AktivGroteskBold" }
+    };
+
     useEffect(() => {
         const canvas = canvasRef.current;
         const ctx = canvas.getContext('2d');
@@ -68,7 +68,8 @@ const ImgCanvas = (props) => {
             ctx.letterSpacing = "0.1px";
             ctx.textAlign = "left";
             ctx.fillStyle = color.length ? '#' + color : "#FFFFFF";
-            const resultsString = `Votes: <b>${votes}</b> | Average: <b>${avg}</b> | Std.Dev.: <b>${stdev}</b>`;
+            const resultsString = country === "APRIL" ? 'Shrek is <b>love</b>, Shrek is <b>life</b>. Salame.' :
+                `Votes: <b>${votes}</b> | Average: <b>${avg}</b> | Std.Dev.: <b>${stdev}</b>`;
 
             canvasMarkupText(ctx, resultsString, textXPos, textYPos, styles);
 

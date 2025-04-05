@@ -33,7 +33,7 @@
     "country": "Belgium",
     "shortCode": "be",
     "longCode": "BEL",
-    "color": ""
+    "color": "fae140"
   },
   {
     "country": "Croatia",
@@ -45,7 +45,7 @@
     "country": "Cyprus",
     "shortCode": "cy",
     "longCode": "CYP",
-    "color": ""
+    "color": "ffa52f"
   },
   {
     "country": "Czechia",
@@ -63,7 +63,7 @@
     "country": "Estonia",
     "shortCode": "ee",
     "longCode": "EST",
-    "color": ""
+    "color": "ffffff"
   },
   {
     "country": "Finland",
@@ -105,7 +105,7 @@
     "country": "Ireland",
     "shortCode": "ie",
     "longCode": "IRL",
-    "color": ""
+    "color": "ff881f"
   },
   {
     "country": "Israel",
@@ -123,25 +123,25 @@
     "country": "Latvia",
     "shortCode": "lv",
     "longCode": "LVA",
-    "color": ""
+    "color": "ffffff"
   },
   {
     "country": "Lithuania",
     "shortCode": "lt",
     "longCode": "LTU",
-    "color": ""
+    "color": "fdba0b"
   },
   {
     "country": "Luxembourg",
     "shortCode": "lu",
     "longCode": "LUX",
-    "color": ""
+    "color": "ff4556"
   },
   {
     "country": "Malta",
     "shortCode": "mt",
     "longCode": "MLT",
-    "color": ""
+    "color": "d00c27"
   },
   {
     "country": "Moldova",
@@ -171,7 +171,7 @@
     "country": "Poland",
     "shortCode": "pl",
     "longCode": "POL",
-    "color": ""
+    "color": "ffffff"
   },
   {
     "country": "Portugal",
@@ -183,7 +183,7 @@
     "country": "San Marino",
     "shortCode": "sm",
     "longCode": "SMR",
-    "color": ""
+    "color": "6bccfe"
   },
   {
     "country": "Serbia",
@@ -201,25 +201,25 @@
     "country": "Spain",
     "shortCode": "es",
     "longCode": "ESP",
-    "color": ""
+    "color": "fecc00"
   },
   {
     "country": "Sweden",
     "shortCode": "se",
     "longCode": "SWE",
-    "color": "fecc00"
+    "color": "ffffff"
   },
   {
     "country": "Switzerland",
     "shortCode": "ch",
     "longCode": "CHE",
-    "color": "ffffff"
+    "color": ""
   },
   {
     "country": "Ukraine",
     "shortCode": "ua",
     "longCode": "UKR",
-    "color": ""
+    "color": "ffda0b"
   },
   {
     "country": "United Kingdom",
@@ -231,6 +231,6 @@
     "country": "April Fools",
     "shortCode": "april",
     "longCode": "APRIL",
-    "color": ""
+    "color": "aedd00"
   }
 ]

@@ -10,7 +10,7 @@ const HangoutJury = () => {
     const [votes, setVotes] = useState("");
     const [avg, setAvg] = useState("");
     const [stdev, setStdev] = useState("");
-    const [color, setColor] = useState("#FFFFFF");
+    const [color, setColor] = useState("FFFFFF");
 
     const [countries, setCountries] = useState([]);
     const [country, setCountry] = useState("al");
