@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hangout-jury/static/css/main.47353091.css",
-    "main.js": "/hangout-jury/static/js/main.fb4ca64d.js",
+    "main.js": "/hangout-jury/static/js/main.35aec348.js",
     "static/js/787.86474ce0.chunk.js": "/hangout-jury/static/js/787.86474ce0.chunk.js",
     "static/media/LTU.png": "/hangout-jury/static/media/LTU.4c52f122d0f37ea4ec8d.png",
     "static/media/DNK.png": "/hangout-jury/static/media/DNK.1f37b23c8efe459bc233.png",
@@ -10,6 +10,7 @@
     "static/media/UKR.png": "/hangout-jury/static/media/UKR.15d653f729b3ab746edb.png",
     "static/media/IRL.png": "/hangout-jury/static/media/IRL.b3a71587e2bf7eb4688d.png",
     "static/media/SMR.png": "/hangout-jury/static/media/SMR.275de0e95f890f8f7969.png",
+    "static/media/HRV.png": "/hangout-jury/static/media/HRV.1b9bd8b483cf8023ae09.png",
     "static/media/DEU.png": "/hangout-jury/static/media/DEU.d131a0dca9ba005fe3c6.png",
     "static/media/SWE.png": "/hangout-jury/static/media/SWE.f71db8f7521a52afb01b.png",
     "static/media/GBR.png": "/hangout-jury/static/media/GBR.00cd00b0c7bd6c69db14.png",
@@ -17,6 +18,7 @@
     "static/media/FIN.png": "/hangout-jury/static/media/FIN.3eb436251e71e8c7c4df.png",
     "static/media/CHE.png": "/hangout-jury/static/media/CHE.c059fec4d61203d1cf30.png",
     "static/media/LUX.png": "/hangout-jury/static/media/LUX.914badbde5c06eb782b7.png",
+    "static/media/PRT.png": "/hangout-jury/static/media/PRT.e3cc004b517c2e220d56.png",
     "static/media/MLT.png": "/hangout-jury/static/media/MLT.0b8faf80013ac9ff7c34.png",
     "static/media/AUS.png": "/hangout-jury/static/media/AUS.d9887505bb57f3fd54bb.png",
     "static/media/BEL.png": "/hangout-jury/static/media/BEL.0c19abe337fcc6377683.png",
@@ -31,11 +33,11 @@
     "static/media/error.png": "/hangout-jury/static/media/error.a0c7c67eed295eda5852.png",
     "index.html": "/hangout-jury/index.html",
     "main.47353091.css.map": "/hangout-jury/static/css/main.47353091.css.map",
-    "main.fb4ca64d.js.map": "/hangout-jury/static/js/main.fb4ca64d.js.map",
+    "main.35aec348.js.map": "/hangout-jury/static/js/main.35aec348.js.map",
     "787.86474ce0.chunk.js.map": "/hangout-jury/static/js/787.86474ce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47353091.css",
-    "static/js/main.fb4ca64d.js"
+    "static/js/main.35aec348.js"
   ]
 }
