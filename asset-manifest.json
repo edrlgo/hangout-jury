@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hangout-jury/static/css/main.47353091.css",
-    "main.js": "/hangout-jury/static/js/main.fffdb61b.js",
+    "main.js": "/hangout-jury/static/js/main.f3724952.js",
     "static/js/787.86474ce0.chunk.js": "/hangout-jury/static/js/787.86474ce0.chunk.js",
     "static/media/LTU.png": "/hangout-jury/static/media/LTU.4c52f122d0f37ea4ec8d.png",
     "static/media/DNK.png": "/hangout-jury/static/media/DNK.1f37b23c8efe459bc233.png",
@@ -33,6 +33,7 @@
     "static/media/APRIL.png": "/hangout-jury/static/media/APRIL.655eaacc5fe12de4a64c.png",
     "static/media/NLD.png": "/hangout-jury/static/media/NLD.450e821c73dd631239e3.png",
     "static/media/EST.png": "/hangout-jury/static/media/EST.27db59a60bb02d839a70.png",
+    "static/media/ALB.png": "/hangout-jury/static/media/ALB.265dac8cda85fa216869.png",
     "static/media/AktivGrotesk-BoldItalic.otf": "/hangout-jury/static/media/AktivGrotesk-BoldItalic.1800bb3f28ea0d8d750f.otf",
     "static/media/AktivGrotesk-ThinItalic.otf": "/hangout-jury/static/media/AktivGrotesk-ThinItalic.4e9c51a8063e62bcd6a6.otf",
     "static/media/Bazinga-Regular.otf": "/hangout-jury/static/media/Bazinga-Regular.ba5a33fb3f65b925c43d.otf",
@@ -41,11 +42,11 @@
     "static/media/error.png": "/hangout-jury/static/media/error.a0c7c67eed295eda5852.png",
     "index.html": "/hangout-jury/index.html",
     "main.47353091.css.map": "/hangout-jury/static/css/main.47353091.css.map",
-    "main.fffdb61b.js.map": "/hangout-jury/static/js/main.fffdb61b.js.map",
+    "main.f3724952.js.map": "/hangout-jury/static/js/main.f3724952.js.map",
     "787.86474ce0.chunk.js.map": "/hangout-jury/static/js/787.86474ce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47353091.css",
-    "static/js/main.fffdb61b.js"
+    "static/js/main.f3724952.js"
   ]
 }
